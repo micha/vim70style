@@ -16,11 +16,11 @@ if version > 580
 	endif
 endif
 
-let colors_name = "70style"
+let colors_name = "vim70style"
 
 
 " General colors
-hi Cursor		ctermfg=234		cterm=none		guifg=#242424	guibg=#eae788	gui=none
+hi Cursor		ctermfg=239		cterm=none		guifg=#242424	guibg=#eae788	gui=none
 hi Visual		ctermfg=251		ctermbg=239		cterm=none		guifg=#c3c6ca	guibg=#554d4b	gui=none
 hi VisualNOS	ctermfg=251		ctermbg=236		cterm=none		guifg=#c3c6ca	guibg=#303030	gui=none
 hi Search		ctermfg=177		ctermbg=241		cterm=none		guifg=#d787ff	guibg=#636066	gui=none
