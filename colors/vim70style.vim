@@ -20,7 +20,6 @@ let colors_name = "vim70style"
 
 
 " General colors
-hi Cursor		ctermfg=239		cterm=none		guifg=#242424	guibg=#eae788	gui=none
 hi Visual		ctermfg=251		ctermbg=239		cterm=none		guifg=#c3c6ca	guibg=#554d4b	gui=none
 hi VisualNOS	ctermfg=251		ctermbg=236		cterm=none		guifg=#c3c6ca	guibg=#303030	gui=none
 hi Search		ctermfg=177		ctermbg=241		cterm=none		guifg=#d787ff	guibg=#636066	gui=none
@@ -73,24 +72,54 @@ hi DiffChange					ctermbg=237										guibg=#382a37
 
 
 " Syntax highlighting
-hi Keyword		ctermfg=111		cterm=none		guifg=#88b8f6	gui=none
-hi Statement	ctermfg=111		cterm=none		guifg=#88b8f6	gui=none
-hi Constant		ctermfg=173		cterm=none		guifg=#e5786d	gui=none
-hi Number		ctermfg=173		cterm=none		guifg=#e5786d	gui=none
-hi PreProc		ctermfg=173		cterm=none		guifg=#e5786d	gui=none
-hi Function		ctermfg=192		cterm=none		guifg=#cae982	gui=none
-hi Identifier	ctermfg=192		cterm=none		guifg=#cae982	gui=none
-hi Type			ctermfg=186		cterm=none		guifg=#d4d987	gui=none
-hi Special		ctermfg=229		cterm=none		guifg=#eadead	gui=none
-hi String		ctermfg=113		cterm=none		guifg=#95e454	gui=italic
+hi Normal		ctermfg=250		cterm=none
+hi Error		ctermfg=16		ctermbg=196		cterm=bold
+hi Keyword		ctermfg=202		cterm=bold
+hi Repeat		ctermfg=214		cterm=bold
+hi Statement	ctermfg=214		cterm=bold		guifg=#88b8f6	gui=none
+"hi Constant		ctermfg=173		cterm=none		guifg=#e5786d	gui=none
+hi Number		ctermfg=108		cterm=none		guifg=#e5786d	gui=none
+hi Character	ctermfg=108		cterm=none		guifg=#e5786d	gui=none
+"hi PreProc		ctermfg=173		cterm=none		guifg=#e5786d	gui=none
+hi Function		ctermfg=208		cterm=bold		guifg=#cae982	gui=none
+hi Conditional	ctermfg=208		cterm=bold		guifg=#cae982	gui=none
+hi Identifier	ctermfg=214		cterm=bold		guifg=#cae982	gui=none
+hi Type			ctermfg=208		cterm=bold		guifg=#d4d987	gui=none
+hi Special		ctermfg=130		cterm=bold
+hi String		ctermfg=107		cterm=none		guifg=#95e454	gui=italic
+hi Constant		ctermfg=107		cterm=none		guifg=#95e454	gui=italic
 hi Comment		ctermfg=241		cterm=none		guifg=#9c998e	gui=italic
-hi Todo			ctermfg=101		cterm=none		guifg=#857b6f	gui=italic
-
+hi Operator		ctermfg=214		cterm=none		guifg=#9c998e	gui=italic
+hi Exception	ctermfg=142		cterm=bold		guifg=#9c998e	gui=italic
+hi Define		ctermfg=94		cterm=bold		guifg=#9c998e	gui=italic
+hi Macro		ctermfg=130		cterm=bold		guifg=#9c998e	gui=italic
+hi htmlTagN		ctermfg=130		cterm=bold		guifg=#9c998e	gui=italic
+hi htmlTag		ctermfg=238		cterm=bold		guifg=#9c998e	gui=italic
+hi htmlEndTag	ctermfg=238		cterm=bold		guifg=#9c998e	gui=italic
+hi htmlArg		ctermfg=238		cterm=bold		guifg=#9c998e	gui=italic
+"hi Title		ctermfg=248		cterm=bold		guifg=#9c998e	gui=italic
+hi clojureSexpLevel0 ctermfg=179
+hi clojureSexpLevel1 ctermfg=179
+hi clojureSexpLevel2 ctermfg=179
+hi clojureSexpLevel3 ctermfg=179
+hi clojureSexpLevel4 ctermfg=179
+hi clojureSexpLevel5 ctermfg=179
+hi clojureSexpLevel6 ctermfg=179
+hi clojureSexpLevel7 ctermfg=179
+hi clojureSexpLevel8 ctermfg=179
+hi clojureSexpLevel9 ctermfg=179
+hi clojureVector 	 ctermfg=179
+hi clojureSet   	 ctermfg=179
+hi clojureMap   	 ctermfg=179
+hi clojureAnonFn   	 ctermfg=179
+"hi Todo			ctermfg=101		cterm=none		guifg=#857b6f	gui=italic
 
 " Links
 hi! link FoldColumn		Folded
 hi! link CursorColumn	CursorLine
 hi! link ColorColumn	CursorLine
 hi! link NonText		LineNr
+
+hi! link htmlLink		Normal
 
 " vim:set ts=4 sw=4 noet:
