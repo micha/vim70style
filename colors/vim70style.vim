@@ -114,6 +114,9 @@ hi clojureMap   	 ctermfg=179
 hi clojureAnonFn   	 ctermfg=179
 "hi Todo			ctermfg=101		cterm=none		guifg=#857b6f	gui=italic
 
+hi IndentGuidesOdd  ctermbg=234
+hi IndentGuidesEven ctermbg=235
+
 " Links
 hi! link FoldColumn		Folded
 hi! link CursorColumn	CursorLine
