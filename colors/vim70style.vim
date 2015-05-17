@@ -72,7 +72,7 @@ hi DiffChange					ctermbg=237										guibg=#382a37
 
 
 " Syntax highlighting
-hi Normal		ctermfg=215		cterm=none
+hi Normal		ctermfg=215		guifg=#ffaf5f	cterm=none
 hi Error		ctermfg=16		ctermbg=196		cterm=bold
 hi Keyword		ctermfg=202		cterm=bold
 hi Repeat		ctermfg=214		cterm=bold
